@@ -7,6 +7,16 @@ Granit
 
  AEM ce compose d’une série des Frameworks Open Source comme : 
 
+JCR 
+-----
+        Gestion des contenus : Java Content Repository 'API d'entrepôt documentaire standard appelée aussi JSR 283 
+        (anciennement appelée JSR 170).
+        Java Content Repository est un espace de stockage de données semi-structuré sous la forme d’une arborescence de nœuds. 
+        Chaque élément (Item) est soit un nœud (Node), soit une propriété (Property). Une Property stocke l’information
+         (nom et valeur associée). Un Node structure le contenu.
+
+
+
 Apache  Sling 
 ---------------
         Est un framework pour les applications web RESTful basé sur un arbre de contenu extensible.
@@ -23,13 +33,6 @@ Apache  Sling
             - Communication sans état (stateless). REST est lui-même stateless,
              il n’utilise pas de cookies et ses clients doivent se ré-authentifier à chaque requête.
 
-JCR 
------
-        Gestion des contenus : Java Content Repository 'API d'entrepôt documentaire standard appelée aussi JSR 283 
-        (anciennement appelée JSR 170).
-        Java Content Repository est un espace de stockage de données semi-structuré sous la forme d’une arborescence de nœuds. 
-        Chaque élément (Item) est soit un nœud (Node), soit une propriété (Property). Une Property stocke l’information
-         (nom et valeur associée). Un Node structure le contenu.
 
 Apache Jackrabbit Oak 
 -----------------------
